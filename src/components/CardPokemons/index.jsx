@@ -1,11 +1,11 @@
 import {
-    Grid,
-    Card,
-    CardContent,
-    CardMedia,
-    Box,
-    Typography,
-  } from "@mui/material";
+  Grid,
+  Card,
+  CardContent,
+  CardMedia,
+  Box,
+  Typography,
+} from "@mui/material";
 const CardPokemons = ({ pokemons }) => {
   return (
     <Box>
@@ -23,7 +23,7 @@ const CardPokemons = ({ pokemons }) => {
                   }.svg`}
                 />
                 <CardContent>
-                  <Typography variant="body1" >{pokemon.name}</Typography>
+                  <Typography variant="body1">{pokemon.name}</Typography>
                 </CardContent>
               </Card>
             </Grid>
